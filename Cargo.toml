@@ -1,0 +1,15 @@
+[package]
+name = "aho-corasick-rs"
+version = "0.1.0"
+edition = "2021"
+authors = ["SuperInstance"]
+description = "Aho-Corasick multi-pattern string matching and automaton construction"
+license = "MIT"
+repository = "https://github.com/SuperInstance/aho-corasick-rs"
+keywords = ["aho-corasick", "string-matching", "automaton", "pattern-search"]
+categories = ["algorithms", "text-processing"]
+readme = "README.md"
+
+[lib]
+name = "aho_corasick"
+path = "src/lib.rs"
